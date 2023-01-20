@@ -171,21 +171,21 @@ namespace ToolGood.TextFilter.Commons
                 ms = CompressionUtil.GzipDecompress(bytes, 0);
                 br = new BinaryReader(ms);
 
-                // #region CheckPhone
-                // var phone = br.ReadString();
+                #region CheckPhone
+                var phone = br.ReadString();
                 // if (string.IsNullOrEmpty(phone) == false) {
                 //     if (info.Phone != phone) {
                 //         errorMessage = "数据文件异常！";
                 //         return false;
                 //     }
                 // }
-                // #endregion
+                #endregion
                 #region check version
                 var version = br.ReadString();
-                if (version != Version) {
-                    errorMessage = "当前程序不支持版本数据，请升级！！！";
-                    return false;
-                }
+                // if (version != Version) {
+                //     errorMessage = "当前程序不支持版本数据，请升级！！！";
+                //     return false;
+                // }
                 #endregion
                 #region check year month day
                 var year = br.ReadInt32();

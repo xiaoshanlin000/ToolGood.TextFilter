@@ -13,7 +13,7 @@
     <!--- ServerGarbageCollection ： 服务器垃圾收集 ：不会让内存无限增长 -->
     <ConcurrentGarbageCollection>true</ConcurrentGarbageCollection>
     <!--- ServerGarbageCollection ： 并发垃圾收集 ：不会让内存无限增长 -->
-    
+
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)'=='Debug'">
@@ -39,6 +39,7 @@
 
 
   
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'ToolGood.TextFilter.Windows' " />
   <ItemGroup Condition="$(DefineConstants.Contains('Async'))">
     <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="7.0.2" />
   </ItemGroup>
