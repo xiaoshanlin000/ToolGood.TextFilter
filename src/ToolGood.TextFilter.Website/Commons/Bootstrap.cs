@@ -6,8 +6,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
-using ToolGood.TextFilter.App.Datas.Results;
-using ToolGood.TextFilter.Application;
+using ToolGood.TextFilter.Common.Datas.Results;
+using ToolGood.TextFilter.Commonlication;
 using ToolGood.TextFilter.Models;
 
 

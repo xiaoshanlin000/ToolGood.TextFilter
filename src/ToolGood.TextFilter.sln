@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToolGood.TextFilter.App", "ToolGood.TextFilter.App\ToolGood.TextFilter.App.csproj", "{3BC5640E-087A-4913-ACDB-9722BAA8F113}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToolGood.TextFilter.Common", "ToolGood.TextFilter.Common\ToolGood.TextFilter.Common.csproj", "{3BC5640E-087A-4913-ACDB-9722BAA8F113}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToolGood.TextFilter.Website", "ToolGood.TextFilter.Website\ToolGood.TextFilter.Website.csproj", "{CC6E036C-D661-4080-96D4-D7A67D435DC0}"
 EndProject

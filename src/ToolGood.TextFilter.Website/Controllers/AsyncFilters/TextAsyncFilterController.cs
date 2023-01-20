@@ -6,7 +6,7 @@ using System.IO;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using ToolGood.TextFilter.Application;
+using ToolGood.TextFilter.Commonlication;
 using ToolGood.TextFilter.Models;
 
 namespace ToolGood.TextFilter.Controllers

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Timers;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using ToolGood.TextFilter.Application;
+using ToolGood.TextFilter.Commonlication;
 
 namespace ToolGood.TextFilter.Website.ConsulRegistry
 {

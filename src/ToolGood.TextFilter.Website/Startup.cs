@@ -1,4 +1,4 @@
-/* Copyright (c) 2021 ÎÂÁë³Ç¶«Öª¾ýÈí¼þ¿ª·¢¹¤×÷ÊÒ All rights reserved. */
+/* Copyright (c) 2021 ï¿½ï¿½ï¿½ï¿½Ç¶ï¿½Öªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ All rights reserved. */
 /* GPLv3 License - http://www.gnu.org/licenses/gpl-3.0.html   */
 using System;
 using Microsoft.AspNetCore.Builder;
@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using ToolGood.TextFilter.Application;
+using ToolGood.TextFilter.Commonlication;
 using ToolGood.TextFilter.Website.Commons;
 #if Consul
 using ToolGood.TextFilter.Website.ConsulRegistry;

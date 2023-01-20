@@ -3,7 +3,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using ToolGood.TextFilter.App.Datas.Results;
+using ToolGood.TextFilter.Common.Datas.Results;
 using ToolGood.TextFilter.Models;
 
 namespace ToolGood.TextFilter.Website.Commons
